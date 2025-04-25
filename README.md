@@ -58,5 +58,5 @@ Luego de completar el formulario:
 - Azure iniciará el **despliegue automático** de la aplicación.  
 - Una vez finalizado, se generará una **URL pública** donde se podrá acceder a la página web.
 
-En mi caso es:  
+En este caso es:  
 [https://zealous-cliff-09216a41e.6.azurestaticapps.net/](https://zealous-cliff-09216a41e.6.azurestaticapps.net/)
