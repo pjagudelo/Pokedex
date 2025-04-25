@@ -1,47 +1,62 @@
-Guía para la Creación de Cuenta en Azure y Despliegue de Aplicación Pokédex
+# Guía para la Creación de Cuenta en Azure y Despliegue de Aplicación Pokédex
 
-Este documento describe el proceso de creación de una cuenta en Microsoft Azure utilizando un correo institucional, así como el despliegue de una aplicación web estática (Pokédex) mediante la integración con GitHub.
+Este documento describe el proceso de creación de una cuenta en **Microsoft Azure** utilizando un correo institucional, así como el despliegue de una aplicación web estática (**Pokédex**) mediante la integración con **GitHub**.
 
-1. Acceso a Microsoft Azure
+---
 
-- Ingresar al sitio oficial de Azure: https://azure.microsoft.com
-- Hacer clic en "Iniciar sesión" (parte superior derecha).
-- Iniciar sesión con el correo y contraseña del correo institucional.
+## Acceso a Microsoft Azure
 
-2. Inicio de sesión en GitHub
+1. Ingresar al sitio oficial de Azure: [https://azure.microsoft.com](https://azure.microsoft.com)  
+2. Hacer clic en **"Iniciar sesión"** (parte superior derecha).  
+3. Iniciar sesión con el correo y contraseña del correo institucional.
 
-- Ir al sitio web de GitHub: https://github.com
-- Iniciar sesión con la cuenta que contiene el repositorio del proyecto Pokédex.
+---
 
-3. Vinculación entre Azure y GitHub
+## Inicio de sesión en GitHub
 
-- En el portal de Azure, buscar y seleccionar "Static Web Apps".
-- Hacer clic en "Crear".
-- Seleccionar GitHub como origen del código.
-- Iniciar sesión en GitHub si es necesario y autorizar los permisos para vincular ambas cuentas.
+1. Ir al sitio web de GitHub: [https://github.com](https://github.com)  
+2. Iniciar sesión con la cuenta que contiene el repositorio del proyecto **Pokédex**.
 
-4. Configuración del Proyecto para Despliegue
+---
+
+## Vinculación entre Azure y GitHub
+
+1. En el portal de **Azure**, buscar y seleccionar **"Static Web Apps"**.  
+2. Hacer clic en **"Crear"**.  
+3. Seleccionar **GitHub** como origen del código.  
+4. Iniciar sesión en GitHub si es necesario y autorizar los permisos para vincular ambas cuentas.
+
+---
+
+## Configuración del Proyecto para Despliegue
 
 Completar los campos del formulario con los siguientes datos:
 
-- Suscripción: Seleccionar la que esté activa.
-- Grupo de recursos: Crear uno nuevo o seleccionar uno existente.
-- Nombre: Especificar un nombre único para la aplicación (ejemplo: pokedex-app).
-- Plan de hospedaje: Seleccionar "Estándar (para aplicaciones de producción de uso general)".
-- Origen del código: GitHub.
-- Organización: Escribir el nombre de usuario u organización del repositorio.
-- Repositorio: Seleccionar el repositorio del proyecto.
-- Rama: Seleccionar "master".
-- Framework detectado: Angular (detecto automático).
-- Ubicación de la aplicación: Reemplazar la ruta por defecto y escribir:
+- **Suscripción:** Seleccionar la que esté activa.  
+- **Grupo de recursos:** Crear uno nuevo o seleccionar uno existente.  
+- **Nombre:** Especificar un nombre único para la aplicación (ejemplo: `pokedex-app`).  
+- **Plan de hospedaje:** Seleccionar _Estándar (para aplicaciones de producción de uso general)_.  
+- **Origen del código:** GitHub  
+- **Organización:** Escribir el nombre de usuario u organización del repositorio.  
+- **Repositorio:** Seleccionar el repositorio del proyecto.  
+- **Rama:** Seleccionar `"master"`.  
+- **Framework detectado:** Angular _(detección automática)_.  
+- **Ubicación de la aplicación:**  
+  ```
   sistemas-distribuidos/poke-dex-lab/source/pokedex-angular
+  ```
 
-Luego de completar el formulario, hacer clic en "Revisar + crear" y después en "Crear".
+Luego de completar el formulario:
 
-5. Despliegue de la Aplicación
+- Hacer clic en **"Revisar + crear"**  
+- Finalmente, hacer clic en **"Crear"**
 
-- Azure iniciará el despliegue automático de la aplicación.
-- Una vez finalizado, se generará una URL pública donde se podrá acceder a la página web.
+---
 
-En mi caso es:
-https://zealous-cliff-09216a41e.6.azurestaticapps.net/
+## Despliegue de la Aplicación
+
+- Azure iniciará el **despliegue automático** de la aplicación.  
+- Una vez finalizado, se generará una **URL pública** donde se podrá acceder a la página web.
+
+En mi caso es:  
+[https://zealous-cliff-09216a41e.6.azurestaticapps.net/](https://zealous-cliff-09216a41e.6.azurestaticapps.net/)
